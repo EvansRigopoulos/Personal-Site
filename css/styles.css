@@ -1,17 +1,49 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: serif;
+    font-family:'Merriweather',sans-serif;
+
 }
 
 h1 {
     margin: 0 auto;
+    font-family: 'Sacramento',cursive;
+}
+h2{
+  font-family: 'Montserrat',sans-serif;
+  padding-bottom: 10px;
+}
+h3{
+  padding-top: 20px;
+font-family: 'Montserrat',sans-serif;
 }
 
+table{
+  position: relative;
+  left:400px;
+}
+ul{
+  list-style-type: none;
+}
+
+.intro{
+  margin: auto;
+  width:40%;
+  text-align: center;
+  line-height: 2;
+}
+
+.Profile-img{
+  margin: auto;
+  width: 10%;
+}
 .top-container {
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
+}
+.profile{
+margin :auto;
 }
 
 .pro {
@@ -29,3 +61,81 @@ h1 {
     right: 300px;
     top: 50px;
 }
+.middle-container{
+  background-color: #F8F7DE;
+
+
+}
+
+
+.skills{
+  background-color:#8ad7c1;
+
+}
+.skills-image{
+
+    position:relative;
+    margin-top: 10px;
+    height:  100px;
+    width:100px;
+}
+.skills-row{
+
+  background-color:#C6FCED
+}
+.Education{
+    position:relative;
+
+    height:  100px;
+    width:100px;
+}
+
+.Work-Experience{
+
+  background-color: #F8F7DE;
+}
+.bottom-container{
+  position: relative;
+
+  background-color: #E4F9F5;
+}
+.Contact{
+  position:relative;
+  top:20px;
+
+  height:  80px;
+  width:80px;
+}
+.Work{
+  position:relative;
+  top:20px;
+
+  height:  80px;
+  width:80px;
+}
+
+.btn{
+  box-shadow:inset 0 1px 0 0 #caefab;
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color:#77d42a;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #aade7c;
+  margin-bottom: 20px;
+}
+.btn:hover{
+  background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+  	background-color:#5cb811;
+}
+.btn:active{
+  position:relative;
+  	top:1px;
+  }
